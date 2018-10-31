@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite One]" verbose="0">
+  <test name="Test One(failed)">
+    <classes>
+      <class name="ToolsQA.DemoMavenEclipseProject.open_chrome">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- ToolsQA.DemoMavenEclipseProject.open_chrome -->
+      <class name="ToolsQA.DemoMavenEclipseProject.open_firefox">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="main"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- ToolsQA.DemoMavenEclipseProject.open_firefox -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [Suite One] -->

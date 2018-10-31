@@ -1,0 +1,9 @@
+package ToolsQA.DemoMavenEclipseProject;
+
+import org.testng.annotations.Test;
+
+public class test_first_try {
+  @Test
+  public void f() {
+  }
+}

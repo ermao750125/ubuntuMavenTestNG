@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 16.442 s <<< FAILURE! - in TestSuite
+main(ToolsQA.DemoMavenEclipseProject.open_firefox)  Time elapsed: 9.032 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=fileNotFound&u=file%3A///signin%3FreturnTo%3D%252F&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20file%20at%20/signin%3FreturnTo%3D/.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ermao-ThinkPad-T510', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-38-generic', java.version: '10.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 4462, moz:profile: /tmp/rust_mozprofile.Bqlduc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-38-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62f0e6ce-d90d-4973-8813-0ecaca79ea53
+	at ToolsQA.DemoMavenEclipseProject.open_firefox.main(open_firefox.java:28)
+
+main(ToolsQA.DemoMavenEclipseProject.open_chrome)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at ToolsQA.DemoMavenEclipseProject.open_chrome.main(open_chrome.java:26)
+

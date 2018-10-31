@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="16.442" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/test-classes:/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/classes:/home/ermao/.m2/repository/org/testng/testng/6.9.8/testng-6.9.8.jar:/home/ermao/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/ermao/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/ermao/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/ermao/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/ermao/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/ermao/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ermao/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/ermao/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/ermao/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/ermao/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/ermao/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/ermao/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/ermao/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/ermao/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/ermao/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/ermao/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/surefire/surefirebooter548839546303024061.jar /home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/surefire 2018-10-30T21-04-25_697-jvmRun1 surefire2733875054405665377tmp surefire_018379645577940506221tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/test-classes:/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/classes:/home/ermao/.m2/repository/org/testng/testng/6.9.8/testng-6.9.8.jar:/home/ermao/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/home/ermao/.m2/repository/com/beust/jcommander/1.48/jcommander-1.48.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-java/3.14.0/selenium-java-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-api/3.14.0/selenium-api-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.14.0/selenium-edge-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.14.0/selenium-firefox-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.14.0/selenium-ie-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.14.0/selenium-opera-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.14.0/selenium-remote-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.14.0/selenium-safari-driver-3.14.0.jar:/home/ermao/.m2/repository/org/seleniumhq/selenium/selenium-support/3.14.0/selenium-support-3.14.0.jar:/home/ermao/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/ermao/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/ermao/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/ermao/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/ermao/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/home/ermao/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/ermao/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/home/ermao/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/home/ermao/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/ermao/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/ermao/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/home/ermao/.m2/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar:/home/ermao/.m2/repository/com/squareup/okhttp3/okhttp/3.10.0/okhttp-3.10.0.jar:/home/ermao/.m2/repository/com/squareup/okio/okio/1.14.1/okio-1.14.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/ermao"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-07-17"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/ermao/et510-workspace-maven/DemoMavenEclipseProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/target/surefire/surefirebooter548839546303024061.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.2"/>
+    <property name="user.name" value="ermao"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-38-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/ermao/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="10.0.2"/>
+    <property name="user.dir" value="/home/ermao/et510-workspace-maven/DemoMavenEclipseProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10.0.2+13-Ubuntu-1ubuntu0.18.04.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="main" classname="ToolsQA.DemoMavenEclipseProject.open_firefox" time="9.032">
+    <failure message="Reached error page: about:neterror?e=fileNotFound&amp;u=file%3A///signin%3FreturnTo%3D%252F&amp;c=UTF-8&amp;f=regular&amp;d=Firefox%20can%E2%80%99t%20find%20the%20file%20at%20/signin%3FreturnTo%3D/.&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;ermao-ThinkPad-T510&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-38-generic&apos;, java.version: &apos;10.0.2&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 4462, moz:profile: /tmp/rust_mozprofile.Bqlduc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-38-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 62f0e6ce-d90d-4973-8813-0ecaca79ea53" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Reached error page: about:neterror?e=fileNotFound&u=file%3A///signin%3FreturnTo%3D%252F&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20find%20the%20file%20at%20/signin%3FreturnTo%3D/.
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ermao-ThinkPad-T510', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-38-generic', java.version: '10.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 63.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 4462, moz:profile: /tmp/rust_mozprofile.Bqlduc..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-38-generic, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 62f0e6ce-d90d-4973-8813-0ecaca79ea53
+	at ToolsQA.DemoMavenEclipseProject.open_firefox.main(open_firefox.java:28)
+]]></failure>
+    <system-err><![CDATA[1540947868070	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BqlducyWrtSP"
+1540947871879	Marionette	INFO	Listening on port 44783
+1540947871901	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 30, 2018 9:04:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: file:///home/ermao/Documents/browserExeFilesFolder/torontopubliclibraryHomePage.html, line 947: ReferenceError: $ is not defined
+JavaScript error: file:///home/ermao/Documents/browserExeFilesFolder/torontopubliclibraryHomePage.html, line 1185: ReferenceError: jQuery is not defined
+JavaScript error: file:///home/ermao/Documents/browserExeFilesFolder/torontopubliclibraryHomePage.html, line 4178: ReferenceError: $ is not defined
+JavaScript error: file:///home/ermao/Documents/browserExeFilesFolder/torontopubliclibraryHomePage.html, line 4374: ReferenceError: TPLGA is not defined
+JavaScript error: file:///home/ermao/Documents/browserExeFilesFolder/torontopubliclibraryHomePage.html, line 1: ReferenceError: Common is not defined
+]]></system-err>
+  </testcase>
+  <testcase name="main" classname="ToolsQA.DemoMavenEclipseProject.open_chrome" time="0.001">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at ToolsQA.DemoMavenEclipseProject.open_chrome.main(open_chrome.java:26)
+</failure>
+    <system-err><![CDATA[1540947881191	Marionette	INFO	Stopped listening on port 44783
+[Parent 4462, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+[Parent 4462, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-4VfQCB/firefox-63.0+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 356
+Starting ChromeDriver 2.43.600233 (523efee95e3d68b8719b3a1c83051aa63aa6b10d) on port 1993
+Only local connections are allowed.
+Oct 30, 2018 9:04:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

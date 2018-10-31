@@ -1,0 +1,49 @@
+package ToolsQA.DemoMavenEclipseProject;
+
+
+import java.util.concurrent.TimeUnit;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class open_chrome {
+	public static WebDriver driver;
+	
+	@BeforeMethod
+	   public void beforeMethod() {
+		
+		 System.setProperty("webdriver.chrome.driver", "/home/ermao/et510-workspace-maven/DemoMavenEclipseProject/browsersExeFilesFOlder/chromedriver");
+		  WebDriver driver = new ChromeDriver();
+		  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		  
+	}
+	 
+		  // Create a new instance of the Firefox driver
+	@Test
+ public static void main() {
+		driver.get("http://www.google.com");
+  if (driver.findElement(By.xpath("//input[@name='q']")).isEnabled()) {
+   System.out.println("Google search text box Is enabled.");
+   driver.findElement(By.xpath("//input[@name='q']")).sendKeys("WebDriver Test successful.");
+   driver.findElement(By.xpath("//button[@name='btnG']")).click();
+   System.out.println("Google search completed.");
+  } else {
+   System.out.println("Google search test box Is Not enabled.");
+
+  }
+  
+ }
+	
+	@AfterMethod
+	 
+	  public void afterMethod() {
+	 
+		  // Close the driver
+	 
+	      driver.quit();
+	 
+	  }
+}

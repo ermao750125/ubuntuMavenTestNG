@@ -1,0 +1,9 @@
+package toolsqa_testng;
+
+import org.testng.annotations.Test;
+
+public class aaaa {
+  @Test
+  public void f() {
+  }
+}
